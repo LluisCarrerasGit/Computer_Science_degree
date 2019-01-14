@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>PAC3 - Exercici 4</title>
+        <script type="text/javascript" src="pac3_ex4.js"></script>
+    </head>
+    <body>
+        <div id="imatge" style="position: absolute; top: 300px; left: 300px; width: 100px; height: 100px; background-color: ffff99">
+            <img src="garfield.jpg">
+        </div>
+        
+        <form name="coordinatesForm">
+            <p>Introdueixi les coordenades inicials i finals (es donen uns valors per defecte):</p>
+            <p>Coordenada X inicial:
+            <input type="text" name="x_inicial" size="5" value="100"></p>
+            <p>Coordenada Y inicial:
+            <input type="text" name="y_inicial" size="5" value="100"></p>
+            <p>Coordenada X final:
+            <input type="text" name="x_final" size="5" value="500"></p>
+            <p>Coordenada Y final:
+            <input type="text" name="y_final" size="5" value="500"></p>
+        </form>
+        <button onclick="animaRectaDefault()">Submit</button>
+       <!--
+        <script>animaRecta("imatge", 200, 200, 500, 500, 5);</script>
+        -->
+    </body>
+</html>
